@@ -1,9 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
-
 int main(){
     int c_filas;
     int c_columnas;
@@ -34,8 +31,5 @@ int main(){
         }
         cout<<endl;
     }
-
-
-
 
 }

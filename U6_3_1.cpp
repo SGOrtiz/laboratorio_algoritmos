@@ -11,7 +11,9 @@ int main(){
     cout<<"ingresa filas y columnas"<<endl;
     cin>>c_filas;
     cin>>c_columnas;
+
     int matriz [c_filas][c_columnas];
+
     cout<<"ingresa valores"<<endl;
     for (int fila=0;fila<c_filas;fila++){
         for(int columna=0;columna<c_columnas;columna++){
@@ -22,11 +24,9 @@ int main(){
     cout<<"muy bien"<<endl;
     for (int fila=0;fila<c_filas;fila++){
         for(int columna=0;columna<c_columnas;columna++){
-            cout<<matriz[fila][columna];
+            cout<<matriz[fila][columna]<<" ";
         }
         cout<<endl;
-
-
     }
 
 

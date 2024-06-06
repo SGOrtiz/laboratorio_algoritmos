@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//este es de U6_2 pero es esta arreglado
 // Unificar los arreglos
 void array_unificado(int l1[], int l2[], int t1, int t2, int lista_unificada[]) {
     for (int j = 0; j < t1; j++) {

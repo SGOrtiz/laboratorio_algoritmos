@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//estre no anda
 void esigual(int matriz[3][3], int matriz_traspuesta[3][3]){
     int esidentica=0;
     for (int fila=0;fila<3;fila++){
